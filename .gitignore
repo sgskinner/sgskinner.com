@@ -1,0 +1,60 @@
+# ignore misc (sgs)
+**/input/
+**/output/
+*.out
+*.log
+*.gz
+*.zip
+
+# ignore eclipse
+.classpath
+.project
+.settings/
+
+# ignore intellij
+.metadata
+.idea
+*.iml
+
+# ignore netbeans
+nbproject/private/
+bbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+.nb-gradle/
+
+# ignore sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+
+# ignore textmate
+*.tmproj
+*.tmproject
+tmtags
+**/target/
+**/node_modules/*
+kfs-web/src/main/webapp/build
+.DS_Store
+kfs-api-test/dev.properties
+dependency-reduced-pom.xml
+overlays
+
+# ignore maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+buildNumber.properties
+.mvn/
+
+# ignore vscode
+.vscode/
+*.vsix
